@@ -48,14 +48,14 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = '//127.0.0.1/XE';
+$db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'fpsbd';
 $db['default']['password'] = 'fpsbd';
 $db['default']['database'] = '';
-$db['default']['dbdriver'] = 'oci8';
+$db['default']['dbdriver'] = 'msqli';
 $db['default']['dbprefix'] = '';
-$db['default']['pconnect'] = TRUE;
-$db['default']['db_debug'] = TRUE;
+$db['default']['pconnect'] = FALSE;
+$db['default']['db_debug'] = FALSE;
 $db['default']['cache_on'] = FALSE;
 $db['default']['cachedir'] = '';
 $db['default']['char_set'] = 'utf8';
